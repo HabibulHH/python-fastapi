@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Cache and logs
+*.log
+*.cache
+*.pytest_cache/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Dependency files
+Pipfile
+Pipfile.lock
+requirements.txt
+
+# Uvicorn and Gunicorn logs
+gunicorn.log
+gunicorn.error.log
+uvicorn.log
+
+# Migrations (if using an ORM)
+migrations/
+
+# FastAPI-specific temp files
+instance/
+*.db
+sqlite.db
+
+# Docker files (if using Docker)
+docker-compose.override.yml
